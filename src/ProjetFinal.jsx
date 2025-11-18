@@ -127,7 +127,7 @@ function ProjetFinal() {
     }
   }
 
-  // ------------------- Données dérivées -------------------
+  
 
   let visibleProjects = [...projects];
 
@@ -167,7 +167,8 @@ function ProjetFinal() {
 
   return (
     <div
-      style={{
+          style={{
+          marginLeft:"500px" ,
         maxWidth: "900px",
         margin: "40px auto",
         padding: "20px",
