@@ -4,9 +4,10 @@ import './index.css'
 import App from './App.jsx'
 import ShoppingListApp from "./ShoppingListApp";
 import BlogApp from "./BlogApp.jsx";
+import ProjetFinal from "./ProjetFinal.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BlogApp />
+    <ProjetFinal />
   </StrictMode>,
 )
